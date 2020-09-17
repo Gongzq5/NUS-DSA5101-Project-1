@@ -1,5 +1,11 @@
 # NUS-DSA5101-Project-1
 
+
+## Some links about the project
+
+* [(*Sklearn*) MCC i.e. matthews_corrcoef](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html#sklearn.metrics.matthews_corrcoef)
+* [(*Sklearn*) Cross validation](https://scikit-learn.org/stable/modules/cross_validation.html)
+
 ## 下载git
 
 https://git-scm.com/
