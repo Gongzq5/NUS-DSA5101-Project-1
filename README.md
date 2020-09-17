@@ -1,5 +1,13 @@
 # NUS-DSA5101-Project-1
 
+## 下载git
+
+https://git-scm.com/
+
+中间靠右有个 download 的按钮
+
+## Use
+
 ### 第一次拉取代码：
 ```
 git clone https://github.com/Gongzq5/NUS-DSA5101-Project-1.git
