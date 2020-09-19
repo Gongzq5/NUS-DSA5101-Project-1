@@ -49,5 +49,5 @@ def splitDataset(data: pd.DataFrame) -> (np.array, np.array, np.array, np.array)
     """
     X = data[data.columns[0:-1]].values
     y = data[data.columns[-1]].values
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, stratify = y, test_size=0.33)
     return X_train, X_test, y_train, y_test
