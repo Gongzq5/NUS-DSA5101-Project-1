@@ -119,7 +119,7 @@ def splitDataset(data: pd.DataFrame) -> (np.array, np.array, np.array, np.array)
     @param data: all data after processing, the last col should be the target;
     @return: (X_train, X_test, y_train, y_test)
     """
-    X = data[data.columns[0:-1]].values
+    X = data[data.columns[0:-2]].values
     y = data[data.columns[-1]].values
     X_train, X_test, y_train, y_test = train_test_split(X, y, stratify = y, test_size=0.33)
     return X_train, X_test, y_train, y_test
